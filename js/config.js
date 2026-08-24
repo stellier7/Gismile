@@ -245,10 +245,37 @@ const config = {
   },
 
   // ---------------------------------------------------------------------------
-  // DENTISTS — empty array hides the section
-  // TODO: Add doctors — upload photos to assets/images/dentists/ and add entries here
+  // DENTISTS
+  // TODO: Upload headshots to assets/images/dentists/ (see photoUrl paths below)
   // ---------------------------------------------------------------------------
-  dentists: [],
+  dentists: [
+    {
+      name: "Dra. Gisselle Romero",
+      title: {
+        en: "Lead Dentist · DDS",
+        es: "Dentista Principal · Cirujana Dentista",
+      },
+      bio: {
+        en: "Dr. Romero leads Gi Smile HN with a preventive, patient-first approach. She specializes in general dentistry and cosmetic treatments — from cleanings and restorations to smile makeovers — always explaining each step clearly so you feel informed and at ease.",
+        es: "La Dra. Romero lidera Gi Smile HN con un enfoque preventivo y centrado en el paciente. Se especializa en odontología general y tratamientos cosméticos — desde limpiezas y restauraciones hasta transformaciones de sonrisa — siempre explicando cada paso con claridad para que te sientas informado y tranquilo.",
+      },
+      // TODO: Replace with client photo at assets/images/dentists/gisselle-romero.jpg
+      photoUrl: "assets/images/dentists/gisselle-romero.jpg",
+    },
+    {
+      name: "Dra. Judith Arguijo",
+      title: {
+        en: "Associate Dentist · DDS",
+        es: "Dentista Asociada · Cirujana Dentista",
+      },
+      bio: {
+        en: "Dr. Arguijo brings gentle, meticulous care to every visit. Her focus includes aligner therapy, implants, and restorative dentistry — combining precision with a warm bedside manner that puts even nervous patients at ease.",
+        es: "La Dra. Arguijo aporta un cuidado gentil y meticuloso en cada visita. Su enfoque incluye terapia con alineadores, implantes y odontología restaurativa — combinando precisión con un trato cálido que tranquiliza incluso a los pacientes más nerviosos.",
+      },
+      // TODO: Replace with client photo at assets/images/dentists/judith-arguijo.jpg
+      photoUrl: "assets/images/dentists/judith-arguijo.jpg",
+    },
+  ],
 
   // ---------------------------------------------------------------------------
   // SERVICES
@@ -289,10 +316,34 @@ const config = {
   ],
 
   // ---------------------------------------------------------------------------
-  // TESTIMONIALS — empty array hides the section
-  // TODO: Add patient reviews when available
+  // TESTIMONIALS
   // ---------------------------------------------------------------------------
-  testimonials: [],
+  testimonials: [
+    {
+      quote: {
+        en: "From the first appointment I felt welcomed. Dr. Romero explained everything about my cleaning and gave me tips I actually use at home. The clinic is spotless and very professional.",
+        es: "Desde la primera cita me sentí bien recibida. La Dra. Romero me explicó todo sobre mi limpieza y me dio consejos que de verdad uso en casa. La clínica está impecable y muy profesional.",
+      },
+      author: "María Elena S.",
+      rating: 5,
+    },
+    {
+      quote: {
+        en: "I started aligners with Dr. Arguijo and the process has been smooth from day one. Clear updates at every visit and a team that always answers my questions on WhatsApp.",
+        es: "Empecé alineadores con la Dra. Arguijo y el proceso ha sido fluido desde el primer día. Actualizaciones claras en cada visita y un equipo que siempre responde mis preguntas por WhatsApp.",
+      },
+      author: "Carlos M.",
+      rating: 5,
+    },
+    {
+      quote: {
+        en: "I came in for a cosmetic consultation and left with a plan that fit my budget. Gi Smile transformed my smile without pressure — I recommend them to everyone in Kennedy.",
+        es: "Vine por una consulta cosmética y salí con un plan que se ajustó a mi presupuesto. Gi Smile transformó mi sonrisa sin presión — los recomiendo a todos en Kennedy.",
+      },
+      author: "Ana Lucía R.",
+      rating: 5,
+    },
+  ],
 
   // ---------------------------------------------------------------------------
   // FINANCING IMAGES
@@ -331,7 +382,7 @@ const config = {
   // ---------------------------------------------------------------------------
   socials: {
     instagram: "https://www.instagram.com/gismilehn",
-    facebook: "",
+    facebook: "https://www.facebook.com/profile.php?id=61568309054456",
   },
 };
 

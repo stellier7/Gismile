@@ -9,8 +9,9 @@ assets/images/
   logo.png              ← TODO: clinic logo (set branding.logoUrl in config.js)
   hero.jpg              ← TODO: hero background (set branding.heroImageUrl)
   dentist.jpg           ← template placeholder (replace when adding doctors)
-  dentists/             ← TODO: one photo per doctor (see config.js dentists[])
-    doctor-name.jpg
+  dentists/             ← TODO: doctor headshots
+    gisselle-romero.jpg
+    judith-arguijo.jpg
   gallery/
     smile-01.jpg …      ← TODO: replace with real before/after photos
   financing/
@@ -25,6 +26,7 @@ assets/images/
 | `logo.png` (or `.jpg`/`.svg`) | Header/footer logo |
 | `hero.jpg` | Hero section background |
 | `gallery/smile-*.jpg` | Smile gallery (5 placeholder slots) |
-| `dentists/*.jpg` | Doctor headshots (section hidden until added) |
+| `dentists/gisselle-romero.jpg` | Dra. Gisselle Romero headshot |
+| `dentists/judith-arguijo.jpg` | Dra. Judith Arguijo headshot |
 
 Financing logos (BAC, Ficohsa) are already included.
