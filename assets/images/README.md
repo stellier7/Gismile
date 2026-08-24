@@ -17,4 +17,4 @@ assets/images/
     Ficohsa.png
 ```
 
-Template demo files (`hero.jpg`, `dentist.jpg`, `gallery/smile-*.jpg`, `dentists/*.jpg`) can be removed when no longer needed.
+Template demo files (`dentist.jpg`, `dentists/*.jpg`) can be removed when no longer needed.
