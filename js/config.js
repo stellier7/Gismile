@@ -74,10 +74,8 @@ const config = {
     accentColor: "#1A1A1A",
     primaryDark: "",
     softBg: "",
-    // TODO: Add logo — drop file at assets/images/logo.png (or .jpg/.svg) and set path below
-    logoUrl: "",
-    // TODO: Replace with client hero photo — drop at assets/images/hero.jpg
-    heroImageUrl: "assets/images/hero.jpg",
+    logoUrl: "assets/images/logo.jpeg",
+    heroImageUrl: "assets/images/hero.jpeg",
   },
 
   // ---------------------------------------------------------------------------
@@ -246,7 +244,6 @@ const config = {
 
   // ---------------------------------------------------------------------------
   // DENTISTS
-  // TODO: Upload headshots to assets/images/dentists/ (see photoUrl paths below)
   // ---------------------------------------------------------------------------
   dentists: [
     {
@@ -259,8 +256,7 @@ const config = {
         en: "Dr. Romero leads Gi Smile HN with a preventive, patient-first approach. She specializes in general dentistry and cosmetic treatments — from cleanings and restorations to smile makeovers — always explaining each step clearly so you feel informed and at ease.",
         es: "La Dra. Romero lidera Gi Smile HN con un enfoque preventivo y centrado en el paciente. Se especializa en odontología general y tratamientos cosméticos — desde limpiezas y restauraciones hasta transformaciones de sonrisa — siempre explicando cada paso con claridad para que te sientas informado y tranquilo.",
       },
-      // TODO: Replace with client photo at assets/images/dentists/gisselle-romero.jpg
-      photoUrl: "assets/images/dentists/gisselle-romero.jpg",
+      photoUrl: "assets/images/gisselle-romero.jpeg",
     },
     {
       name: "Dra. Judith Arguijo",
@@ -272,8 +268,7 @@ const config = {
         en: "Dr. Arguijo brings gentle, meticulous care to every visit. Her focus includes aligner therapy, implants, and restorative dentistry — combining precision with a warm bedside manner that puts even nervous patients at ease.",
         es: "La Dra. Arguijo aporta un cuidado gentil y meticuloso en cada visita. Su enfoque incluye terapia con alineadores, implantes y odontología restaurativa — combinando precisión con un trato cálido que tranquiliza incluso a los pacientes más nerviosos.",
       },
-      // TODO: Replace with client photo at assets/images/dentists/judith-arguijo.jpg
-      photoUrl: "assets/images/dentists/judith-arguijo.jpg",
+      photoUrl: "assets/images/judith-arguijo.jpeg",
     },
   ],
 
@@ -365,16 +360,14 @@ const config = {
     },
   ],
 
-  // ---------------------------------------------------------------------------
-  // SMILE GALLERY
-  // TODO: Replace with client before/after photos in assets/images/gallery/
-  // ---------------------------------------------------------------------------
   gallery: [
-    "assets/images/gallery/smile-01.jpg",
-    "assets/images/gallery/smile-02.jpg",
-    "assets/images/gallery/smile-03.jpg",
-    "assets/images/gallery/smile-04.jpg",
-    "assets/images/gallery/smile-05.jpg",
+    "assets/images/gallery/IMG_0421.jpeg",
+    "assets/images/gallery/IMG_0423.jpeg",
+    "assets/images/gallery/IMG_0425.jpeg",
+    "assets/images/gallery/IMG_0426.jpeg",
+    "assets/images/gallery/IMG_0427.jpeg",
+    "assets/images/gallery/IMG_0428.jpeg",
+    "assets/images/gallery/IMG_0429.jpeg",
   ],
 
   // ---------------------------------------------------------------------------
